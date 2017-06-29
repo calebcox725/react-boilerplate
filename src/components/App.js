@@ -1,11 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
 
-function App() {
+const App = () => {
+  const GreenH1 = styled.h1`
+    color: green;
+  `;
+
   return (
     <div>
-      <h1>Hello World</h1>
+      <GreenH1>Hello World</GreenH1>
     </div>
   );
-}
+};
 
 export default App;
